@@ -14,11 +14,9 @@
    [default default default italic underline success warning error])
  '(ansi-color-names-vector
    ["#242424" "#e5786d" "#95e454" "#cae682" "#8ac6f2" "#333366" "#ccaa8f" "#f6f3e8"])
- '(custom-enabled-themes (quote (whiteboard)))
+ '(custom-enabled-themes '(dichromacy))
  '(electric-pair-mode t)
- '(font-use-system-font t)
  '(global-display-line-numbers-mode t)
- '(menu-bar-mode t)
  '(scroll-bar-mode nil)
  '(tool-bar-mode nil))
 (custom-set-faces
@@ -26,6 +24,6 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:family "DejaVu Sans Mono" :foundry "PfEd" :slant normal :weight normal :height 120 :width normal)))))
+ '(default ((t (:family "DejaVu Sans" :foundry "PfEd" :slant normal :weight normal :height 98 :width normal)))))
 (setq python-shell-interpreter "python3")
 (add-hook 'prog-mode-hook #'hs-minor-mode)
