@@ -14,7 +14,7 @@
    [default default default italic underline success warning error])
  '(ansi-color-names-vector
    ["#242424" "#e5786d" "#95e454" "#cae682" "#8ac6f2" "#333366" "#ccaa8f" "#f6f3e8"])
- '(custom-enabled-themes '(dichromacy))
+ '(custom-enabled-themes '(wombat))
  '(electric-pair-mode t)
  '(global-display-line-numbers-mode t)
  '(scroll-bar-mode nil)
