@@ -6,6 +6,10 @@
 (package-initialize)
 
 (select-frame-set-input-focus (selected-frame))
+(setq-default inhibit-startup-screen t)
+(setq inhibit-splash-screen t)
+(setq inhibit-startup-message t)
+(setq initial-scratch-message "")
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
